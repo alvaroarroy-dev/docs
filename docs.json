@@ -1,72 +1,82 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
+  "name": "Ela Tours Travel",
+  "theme": "willow",
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://media.brand.dev/599cfe16-df76-4cc2-b400-27b9c89544cf.png",
+    "dark": "https://media.brand.dev/599cfe16-df76-4cc2-b400-27b9c89544cf.png"
+  },
+  "favicon": "https://media.brand.dev/72734614-4eb3-40ed-bcc3-21884f33b0eb.svg",
+  "colors": {
+    "primary": "#1e293b",
+    "light": "#0d7c5c",
+    "dark": "#eae3d0"
+  },
+  "font": {
+    "headings": {
+      "family": "Playfair Display"
+    },
+    "body": {
+      "family": "Plus Jakarta Sans"
+    }
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Book Now",
+      "href": "https://elatourstravel.com/book"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Travel Guide",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "how-it-works",
+              "booking-guide"
+            ]
+          },
+          {
+            "group": "Transportation",
+            "pages": [
+              "transportation/overview",
+              "transportation/antigua-airport",
+              "transportation/antigua-panajachel",
+              "transportation/antigua-san-pedro",
+              "transportation/antigua-el-paredon",
+              "transportation/antigua-flores",
+              "transportation/antigua-san-salvador"
+            ]
+          },
+          {
+            "group": "Tours",
+            "pages": [
+              "tours/overview",
+              "tours/walking-tours",
+              "tours/volcano-hikes",
+              "tours/workshops"
+            ]
+          },
+          {
+            "group": "Policies & Support",
+            "pages": [
+              "policies/cancellations",
+              "policies/terms",
+              "support/faq",
+              "support/contact"
+            ]
+          }
+        ]
+      }
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://elatourstravel.com"
     }
   }
 }

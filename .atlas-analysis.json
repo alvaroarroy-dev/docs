@@ -1,0 +1,74 @@
+{
+  "projectType": "saas",
+  "projectName": "Ela Tours Travel",
+  "projectDescription": "Private shuttle transportation and guided tours across Guatemala and beyond, with bilingual drivers, hotel pickup, and secure online booking.",
+  "theme": "willow",
+  "primaryColor": "#1e293b",
+  "lightColor": "#0d7c5c",
+  "darkColor": "#eae3d0",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Travel Guide",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "how-it-works",
+              "booking-guide"
+            ]
+          },
+          {
+            "group": "Transportation",
+            "pages": [
+              "transportation/overview",
+              "transportation/antigua-airport",
+              "transportation/antigua-panajachel",
+              "transportation/antigua-san-pedro",
+              "transportation/antigua-el-paredon",
+              "transportation/antigua-flores",
+              "transportation/antigua-san-salvador"
+            ]
+          },
+          {
+            "group": "Tours",
+            "pages": [
+              "tours/overview",
+              "tours/walking-tours",
+              "tours/volcano-hikes",
+              "tours/workshops"
+            ]
+          },
+          {
+            "group": "Policies & Support",
+            "pages": [
+              "policies/cancellations",
+              "policies/terms",
+              "support/faq",
+              "support/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Private and shared shuttle transfers across Guatemala",
+    "Guided tours including volcano hikes, walking tours, and cultural workshops",
+    "Bilingual (English/Spanish) drivers and guides",
+    "Hotel and door-to-door pickup coordination",
+    "Secure payment via recurrente.com",
+    "WhatsApp and email booking support",
+    "Quick reservation confirmation within hours",
+    "International routes with border crossing assistance",
+    "Flexible cancellation policy with force majeure protection"
+  ],
+  "publicApiSurface": [
+    "Reservation request form",
+    "WhatsApp booking channel (+502 3065 4580)",
+    "Email reservations (reservations@elatourstravel.com)",
+    "Payment via recurrente.com",
+    "Destination pages with departure schedules and pricing"
+  ]
+}
